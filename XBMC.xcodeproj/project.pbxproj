@@ -38,6 +38,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		04F4C0C916267F0800713D5C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F4C0C816267F0800713D5C /* Cocoa.framework */; };
+		04F4C0D316267F0800713D5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04F4C0D116267F0800713D5C /* InfoPlist.strings */; };
+		04F4C0D516267F0800713D5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4C0D416267F0800713D5C /* main.m */; };
+		04F4C0D916267F0800713D5C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 04F4C0D716267F0800713D5C /* Credits.rtf */; };
+		04F4C0DC16267F0800713D5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F4C0DB16267F0800713D5C /* AppDelegate.m */; };
+		04F4C0DF16267F0800713D5C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F4C0DD16267F0800713D5C /* MainMenu.xib */; };
+		04F4C0E216267F0800713D5C /* XBMC_TRY.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04F4C0E016267F0800713D5C /* XBMC_TRY.xcdatamodeld */; };
 		1830212813B8E2DC00770920 /* controledit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1830212713B8E2DC00770920 /* controledit.cpp */; };
 		1830212913B8E2DC00770920 /* controledit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1830212713B8E2DC00770920 /* controledit.cpp */; };
 		183C454D130C4D55006AA317 /* xbmcvfsmodule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189047D11301DEAB00C11012 /* xbmcvfsmodule.cpp */; settings = {COMPILER_FLAGS = "-I$XBMC_DEPENDS/include/python2.6"; }; };
@@ -1936,6 +1943,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04F4C0C516267F0800713D5C /* XBMC-TRY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XBMC-TRY.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F4C0C816267F0800713D5C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		04F4C0CB16267F0800713D5C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		04F4C0CC16267F0800713D5C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04F4C0CD16267F0800713D5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04F4C0D016267F0800713D5C /* XBMC-TRY-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XBMC-TRY-Info.plist"; sourceTree = "<group>"; };
+		04F4C0D216267F0800713D5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04F4C0D416267F0800713D5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F4C0D616267F0800713D5C /* XBMC-TRY-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XBMC-TRY-Prefix.pch"; sourceTree = "<group>"; };
+		04F4C0D816267F0800713D5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		04F4C0DA16267F0800713D5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F4C0DB16267F0800713D5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F4C0DE16267F0800713D5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		04F4C0E116267F0800713D5C /* XBMC_TRY.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XBMC_TRY.xcdatamodel; sourceTree = "<group>"; };
 		09AB6884FE841BABC02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = ../../../System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		1830212713B8E2DC00770920 /* controledit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = controledit.cpp; sourceTree = "<group>"; };
 		18308CB41303370800AA309E /* stat_utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stat_utf8.h; sourceTree = "<group>"; };
@@ -3948,6 +3969,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		04F4C0C216267F0800713D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F4C0C916267F0800713D5C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DD76F780486A8DE00D96B5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -4017,11 +4046,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04F4C0C716267F0800713D5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F4C0C816267F0800713D5C /* Cocoa.framework */,
+				04F4C0CA16267F0800713D5C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04F4C0CA16267F0800713D5C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F4C0CB16267F0800713D5C /* AppKit.framework */,
+				04F4C0CC16267F0800713D5C /* CoreData.framework */,
+				04F4C0CD16267F0800713D5C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		04F4C0CE16267F0800713D5C /* XBMC-TRY */ = {
+			isa = PBXGroup;
+			children = (
+				04F4C0DA16267F0800713D5C /* AppDelegate.h */,
+				04F4C0DB16267F0800713D5C /* AppDelegate.m */,
+				04F4C0DD16267F0800713D5C /* MainMenu.xib */,
+				04F4C0E016267F0800713D5C /* XBMC_TRY.xcdatamodeld */,
+				04F4C0CF16267F0800713D5C /* Supporting Files */,
+			);
+			path = "XBMC-TRY";
+			sourceTree = "<group>";
+		};
+		04F4C0CF16267F0800713D5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F4C0D016267F0800713D5C /* XBMC-TRY-Info.plist */,
+				04F4C0D116267F0800713D5C /* InfoPlist.strings */,
+				04F4C0D416267F0800713D5C /* main.m */,
+				04F4C0D616267F0800713D5C /* XBMC-TRY-Prefix.pch */,
+				04F4C0D716267F0800713D5C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		08FB7794FE84155DC02AAC07 /* XBMC */ = {
 			isa = PBXGroup;
 			children = (
 				C6859E96029091FE04C91782 /* Documentation */,
 				F57E1ED20E36E8FD00700C9D /* internal libs */,
+				04F4C0CE16267F0800713D5C /* XBMC-TRY */,
+				04F4C0C716267F0800713D5C /* Frameworks */,
 				19C28FBDFE9D53C911CA2CBB /* Products */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				08FB779DFE84155DC02AAC07 /* System Libs and Frameworks */,
@@ -4462,6 +4536,7 @@
 			children = (
 				8DD76F7E0486A8DE00D96B5E /* XBMC */,
 				F5A1CBD20F6B06CF00A96ABD /* XBMC */,
+				04F4C0C516267F0800713D5C /* XBMC-TRY.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -6966,6 +7041,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		04F4C0C416267F0800713D5C /* XBMC-TRY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F4C0E516267F0800713D5C /* Build configuration list for PBXNativeTarget "XBMC-TRY" */;
+			buildPhases = (
+				04F4C0C116267F0800713D5C /* Sources */,
+				04F4C0C216267F0800713D5C /* Frameworks */,
+				04F4C0C316267F0800713D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XBMC-TRY";
+			productName = "XBMC-TRY";
+			productReference = 04F4C0C516267F0800713D5C /* XBMC-TRY.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8DD76F740486A8DE00D96B5E /* XBMC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB924708733DCA0010E9CD /* Build configuration list for PBXNativeTarget "XBMC" */;
@@ -7014,6 +7106,7 @@
 				Japanese,
 				French,
 				German,
+				en,
 			);
 			mainGroup = 08FB7794FE84155DC02AAC07 /* XBMC */;
 			projectDirPath = "";
@@ -7023,9 +7116,23 @@
 				6E2FACBA0E26DF7A00DF79EA /* XBMC.app */,
 				F5A1C8710F6B06CF00A96ABD /* XBMC_ppc */,
 				F5A1CBDB0F6B0B4700A96ABD /* XBMC_ppc.app */,
+				04F4C0C416267F0800713D5C /* XBMC-TRY */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F4C0C316267F0800713D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F4C0D316267F0800713D5C /* InfoPlist.strings in Resources */,
+				04F4C0D916267F0800713D5C /* Credits.rtf in Resources */,
+				04F4C0DF16267F0800713D5C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		6E2FACC70E26E22400DF79EA /* copy frameworks */ = {
@@ -7118,6 +7225,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04F4C0C116267F0800713D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F4C0D516267F0800713D5C /* main.m in Sources */,
+				04F4C0DC16267F0800713D5C /* AppDelegate.m in Sources */,
+				04F4C0E216267F0800713D5C /* XBMC_TRY.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DD76F760486A8DE00D96B5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -8973,7 +9090,102 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		04F4C0D116267F0800713D5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F4C0D216267F0800713D5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04F4C0D716267F0800713D5C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F4C0D816267F0800713D5C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		04F4C0DD16267F0800713D5C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F4C0DE16267F0800713D5C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		04F4C0E316267F0800713D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XBMC-TRY/XBMC-TRY-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "XBMC-TRY/XBMC-TRY-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04F4C0E416267F0800713D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XBMC-TRY/XBMC-TRY-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "XBMC-TRY/XBMC-TRY-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		1DEB924808733DCA0010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -9452,6 +9664,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04F4C0E516267F0800713D5C /* Build configuration list for PBXNativeTarget "XBMC-TRY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F4C0E316267F0800713D5C /* Debug */,
+				04F4C0E416267F0800713D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		1DEB924708733DCA0010E9CD /* Build configuration list for PBXNativeTarget "XBMC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -9498,6 +9718,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04F4C0E016267F0800713D5C /* XBMC_TRY.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04F4C0E116267F0800713D5C /* XBMC_TRY.xcdatamodel */,
+			);
+			currentVersion = 04F4C0E116267F0800713D5C /* XBMC_TRY.xcdatamodel */;
+			path = XBMC_TRY.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
 }
